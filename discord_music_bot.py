@@ -77,7 +77,7 @@ class MusicQueue:
         self.queue = deque()
         self.history = deque(maxlen=10)
         self.current = None
-    self.loop_mode = 'off'  ## can be 'off', 'single', 'queue'
+        self.loop_mode = 'off'  ## can be 'off', 'single', 'queue'
         self.shuffle = False
 
     def add(self, song):
