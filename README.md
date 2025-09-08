@@ -5,22 +5,22 @@ ytdl_format_options = {
     # Add your custom options here
 }
 
+
 # Discord Music Bot 🎵
 
-A modern Discord music bot for playing music from YouTube and Spotify, with advanced queue management, interactive controls, and easy setup.
+A modern Discord bot for playing music from YouTube and Spotify, with advanced queue management, interactive controls, and easy setup.
 
-## Features
-- Play music from YouTube and Spotify
-- Add songs and playlists to a queue
+## 🚀 Features
+- Play music from YouTube and Spotify (tracks & playlists)
+- Add, remove, shuffle, and loop songs in a queue
 - Pause, resume, skip, stop, and clear queue
-- Shuffle and loop modes
 - Volume control
 - Rich embeds with song info and album art
 - Interactive Discord UI buttons
 - Slash commands and prefix commands
 - Spotify → YouTube fallback for playback
 
-## Setup
+## 🛠️ Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -29,21 +29,16 @@ A modern Discord music bot for playing music from YouTube and Spotify, with adva
 - (Optional) Spotify API credentials
 
 ### Installation
-1. Clone this repository
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Copy `.env.example` to `.env` and fill in your credentials:
-   - `DISCORD_TOKEN` (required)
-   - `SPOTIFY_CLIENT_ID` (optional)
-   - `SPOTIFY_CLIENT_SECRET` (optional)
-4. Run the bot:
-   ```sh
-   python discord_music_bot.py
-   ```
+```sh
+git clone https://github.com/Karunesh-18/MUSICBOT.git
+cd MUSICBOT
+pip install -r requirements.txt
+cp .env.example .env
+# Edit .env with your credentials
+python discord_music_bot.py
+```
 
-## Usage
+## 💡 Usage
 
 ### Basic Commands
 - `!join` — Join your voice channel
@@ -70,18 +65,18 @@ A modern Discord music bot for playing music from YouTube and Spotify, with adva
 - 🔁 Loop
 - 📋 Show queue
 
-## Environment Variables
+## ⚙️ Environment Variables
 
-| Variable              | Description                  | Required |
-|-----------------------|------------------------------|----------|
-| `DISCORD_TOKEN`       | Discord bot token            | Yes      |
-| `SPOTIFY_CLIENT_ID`   | Spotify app client ID        | No       |
-| `SPOTIFY_CLIENT_SECRET` | Spotify app client secret  | No       |
+| Variable                | Description                  | Required |
+|-------------------------|------------------------------|----------|
+| `DISCORD_TOKEN`         | Discord bot token            | Yes      |
+| `SPOTIFY_CLIENT_ID`     | Spotify app client ID        | No       |
+| `SPOTIFY_CLIENT_SECRET` | Spotify app client secret    | No       |
 
-## Troubleshooting
+## 🧩 Troubleshooting
 - Make sure FFmpeg is installed and in your PATH
 - Check your Discord bot token and permissions
 - For Spotify features, ensure credentials are correct
 
-## License
+## 📄 License
 MIT
