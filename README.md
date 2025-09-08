@@ -1,10 +1,3 @@
-ytdl_format_options = {
-    'format': 'bestaudio/best',
-    'extractaudio': True,
-    'audioformat': 'mp3',
-    # Add your custom options here
-}
-
 
 # Discord Music Bot 🎵
 
